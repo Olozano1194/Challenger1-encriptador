@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> <!--esto sirve para que podamos poner la pagina responsive-->
+
+    <head>
+
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="encriptador.css">
+
+   
+
+    </head>
+    <body>
+        <header class="encabezado">
+            <h1><img src="Imagenes/Logo.png " alt="Logo de Alura"></h1>
+            <h2 class="titulo-encabezado">Desafio, Encriptador de Texto Alura....</h2>
+        </header>
+
+        <main>
+
+            <section class="encriptar-desencriptar">
+
+                <textarea cols="70" rows="30" class="ingresarmensaje" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="signo-alert"><img src="imagenes/Vector.png" alt="signo de alerta"> Solo letras minusculas y sin acentos</p>
+                <div>
+
+                    <input type="button" value="Encriptar" class="encriptar" onclick="buttonEncriptar()">
+                    <input type="button" value="Desencriptar" class="desencriptar" onclick="btnDesencriptar()">
+
+                </div>
+            
+            </section>
+            <section class="mensajecopiado">
+
+                <textarea cols="50" rows="30" class="copiarMensaje"></textarea>
+                <input type="button" value="Copiar" class="copiar" onclick="btnCopiar()">
+
+            </section>
+        </main>
+        <script src="encriptador.js"></script>
+
+        <footer>
+
+            
+           
+
+
+        </footer>
+
+
+    
+    
+
+    </body>
+
+
+    
+
+
+
+    
+
+</html>
