@@ -123,13 +123,14 @@ textarea{
 
 /*aca empieza el responsive*/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1119px) {
 
     .encabezado{
-        margin-left: auto;
+        margin-left: 10px;
     }
 
     .ingresarmensaje{
+        height: 200px;
         margin-left: 200px;
     }
 
@@ -143,11 +144,140 @@ textarea{
     
     .mensajecopiado{
         position: absolute;
-        margin-top: 650px;
+        margin-top: 350px;
         margin-left: 180px;
     }
 
+    .copiarMensaje{
+        height: 250px;
+    }
 
-    
+    .copiar {
+        margin-bottom: 40px;
+    }
 }
 
+@media screen and (max-width:878px) {
+
+    .encabezado{
+        margin: 30px 0 0 50px
+    }
+
+    .titulo-encabezado {
+        margin-left: 50px;
+    }
+
+    .ingresarmensaje{
+        height: 250px;
+        margin-left: 120px;
+    }
+
+    .signo-alert{
+        margin-left: 120px;
+    }
+
+    .encriptar{
+        margin-left: 170px;
+    }
+
+    .copiarMensaje {
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .copiar {
+        margin-left: 130px;
+    }
+    
+    .mensajecopiado{
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .encabezado {
+        margin: 30px -10px auto;
+    }
+
+    .titulo-encabezado{
+        margin: 30px -15px 10px;
+    }
+
+    .ingresarmensaje{
+        width: 455px;
+        height: 220px;
+        margin-left: 20px;
+    }
+
+    .signo-alert{
+        margin: 10px 20px 10px 15px;
+    }
+
+    .encriptar{
+        margin-left: 90px;
+    }
+
+    .copiarMensaje {
+        height: 250px;
+        margin-left: -100px;
+    }
+
+    .copiar {
+        margin-left: 25px;
+    }
+    
+    .mensajecopiado{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .encabezado{
+        margin-left: auto;
+        font-size: 10px;
+    }
+
+    .ingresarmensaje{
+        width: 400px;
+        height: 150px;
+        margin-left: -50px;
+    }
+
+    .signo-alert{
+        margin-left: -50px;
+    }
+
+    .encriptar{
+        margin-left: -5px;
+    }
+
+    .desencriptar {
+        padding-left: 10px;
+        padding-right: 130px;
+        
+    }
+
+    .copiarMensaje {
+        width: 350px;
+        height: 250px;
+        margin-left: -200px;
+    }
+
+    .copiar {
+       margin: 37px 37px 25px -58px;
+       padding-left: 10px;
+       padding-right: 70px;
+    }
+    
+    .mensajecopiado{
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 180px;
+    }
+}
