@@ -1,0 +1,163 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #cecbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Header */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .divImg {
+    width: 20%;
+
+}
+
+header .divImg img {
+    width: 100%;
+}
+ 
+header .divTitulo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/* main */
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+main .encriptar-desencriptar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+main .encriptar-desencriptar .ingresarmensaje {
+    width: 80%;
+    height: 15vh;
+    border: none;
+    border-radius: 1rem;
+    border: 2px solid #3f2b2b;
+    font-size: 1.7rem;
+    padding: 2rem;
+
+}
+
+main .encriptar-desencriptar .signo-alert {
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 3rem;
+}
+
+/* btns */
+main .encriptar-desencriptar .btns {
+    display: flex;
+    justicfy-ontent: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+main .encriptar-desencriptar .btns .encriptar {
+    width: 15rem;
+    height: 5rem;
+    background-color: #4e81f0;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: #cecbcb;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .encriptar-desencriptar .btns .encriptar:hover {
+    background-color: #326ff3;
+    transform: scale(1.2);
+}
+
+main .encriptar-desencriptar .btns .desencriptar {
+    width: 15rem;
+    height: 5rem;
+    background-color: #3f2b2b;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: #cecbcb;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .encriptar-desencriptar .btns .desencriptar:hover {
+    background-color: #5e4d4d;
+    transform: scale(1.2);
+}
+
+/* Mensaje copiado */
+main .mensajecopiado {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .mensajecopiado .copiarMensaje {
+    width: 80%;
+    height: 20vh;
+    border: none;
+    border-radius: 1rem;
+    border: 2px solid #5e4d4d;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+main .mensajecopiado .copiar {
+    width: 50%;
+    height: 5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #579b92;
+    color: #cecbcb;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main .mensajecopiado .copiar:hover {
+    background-color: #45756f;
+    transform: scale(1.2);
+}
+
+
+
+

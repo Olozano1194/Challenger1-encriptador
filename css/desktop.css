@@ -1,0 +1,33 @@
+header .divTitulo {
+    font-size: 4rem;
+}
+
+main .encriptar-desencriptar .ingresarmensaje {
+    width: 65%;
+    font-size: 2.2rem;
+}
+
+main .encriptar-desencriptar .signo-alert {
+    font-size: 2.2rem;
+}
+
+main .encriptar-desencriptar .btns .encriptar, main .encriptar-desencriptar .btns .desencriptar {
+    width: 20rem;
+    height: 8rem;
+    font-size: 2.2rem;
+    
+}
+
+main .mensajecopiado .copiarMensaje {
+    width: 65%;
+    height: 20vh;
+    font-size: 2.2rem;
+    
+}
+
+main .mensajecopiado .copiar {
+    width: 35%;
+    height: 7rem;
+    font-size: 2.5rem;
+    
+}
