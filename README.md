@@ -12,7 +12,7 @@ Este proyecto fue desarrollado como parte de uno de los desafíos del curso de A
 
 - **Responsivo:** El diseño se adapta a diferentes tamaños de pantalla, garantizando una buena experiencia en cualquier dispositivo.
 
-## Texnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Html:** Para la estructura y contenido de la página.
 - **Css:** Para el diseño visual y la responsividad.
